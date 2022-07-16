@@ -1,7 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
+import React, { Component } from 'react';
+import Nav from './Components/Nav';
+import News from "./Components/News";
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Nav/>
+        <News/>
+      </div>
+    );
+  }
+}
+
+export default App;
+
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -22,4 +39,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
