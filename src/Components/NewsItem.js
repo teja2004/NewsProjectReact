@@ -8,7 +8,7 @@ export default class NewsItem extends Component {
     return (
 
       <div>
-        <div className="card mb-5" style={{height : "10%"}}>
+        <div className="card mb-5">
             <img src={urlImage} style={{height : "100px !important",width : "120px !important"}} className="card-img-top" alt="..."/>
             <div className="card-body">
             Author : <span className="card-title">{author === null ? '-' : author}</span>
