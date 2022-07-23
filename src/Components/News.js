@@ -48,7 +48,6 @@ const updateNews = async () => {
 };
 useEffect(() => {
 updateNews();
-  // eslint-disable-next-line
 },[]);
   
 
